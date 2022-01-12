@@ -1,0 +1,38 @@
+<!-- html "Hyperlink markup language"
+không phải ngôn ngữ lập trình , chỉ sử dụng để bố cục web
+câu trúc gồm các thẻ đóng và mở
+block element vd div sử dụng để ngắt trang
+inline element sử dụng để cấu hình thuộc tính các line trong block
+các thẻ cơ bản
+một thẻ có thể có thuộc tính (attribute) và giá trị theo cặp ngăn
+ cách nhau bằng dấu cách, nếu value của thuộc tính có nhiêu thì ngăn cách nhau bằng dấu ; <tag atriute ="value;valueb" atribute2 ="value2"> -->
+<html> 
+	<head> <!-- Tieu de khai bao thong tin cho trang web -->
+		<title> Thẻ title định nghĩa cho title của web site </title>
+		<link rel="stylesheet" href="src/main/css/helloworld.css">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+	</head>
+	<body> Chua noi dung hien thi cho trang web
+		<h1> Thẻ h để định nghĩa các tiêu để header theo thứ tự từ h1 đến h5 </h1>
+		<p style="color:red; font-size:36px;"> Thẻ p chỉ đơn giản là ngắt dòng </p>
+		<mark> thẻ mark để mark các char trong thẻ </mark>
+		<h2><i> Thẻ có thể lồng vào nhau</i> Bên ngoài thẻ sẽ không bị ảnh hưởng</h2>
+		<a href="http://google.com" target="_blank"> dùng thẻ a để định nghĩa link href để gán giá trị cho a </a>
+		<p><a href="http://google.com"><img src="Hello_World_poster.jpg" alt="thay thế khi src bị lỗi và tối ưu SEO" title="dsc của ảnh, không có tác dụng khi SEO"
+				height="200" align="middle" /> </a> ../ để backscape đường dân tương đối, dùng thẻ img lồng trong thẻ a để định nghĩa link khi nhân vào ảnh</p>
+		<p><img src="/home/mrbottle/eclipse-workspace/Lap trinh cung thay Tu senaa/Hello_World_poster.jpg" /> </p>
+		<p> định dạng thẻ <b>in dam</b> <i>nghieng</i> <strong>bol nhan manh</strong> <em>nghieng nhan manh</em> <mark> mark </mark> <small> in nho </small> <del> gạch text </del> <ins> gạch dưới chú thích cho văn bản được chèn thêm sau khi xuất bản </ins> <sub> tren </sub> <sup>duoi</sup></p>
+		<pre> 
+		ok ok ok 
+		ok ok ok
+		</pre>
+		<hr>break html
+		<p> toi dang di thi <br/> bi ngat dong </p>
+		<p> Cac the quote <q>the q de quote nhanh </q> <abbr title="day la noi dubg chu thich" > the abbr de chu thich thong qua atribute title</abbr> </p>
+		<address> the address de dinh nghia dia chi</address>
+		<cite> the cite de dinh nghi chu thich ve ban quyen sang tao </cite>
+		<bdo dir="rtl"> the bdo de chay chu </bdo>
+		<blockquote> <pre> dinh nghia mot khoi block bao gom cac quote </pre>
+		</blockquote>
+	</body>
+</html>

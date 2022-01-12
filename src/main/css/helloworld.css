@@ -1,0 +1,25 @@
+body {
+	background-image: url("../img/background.jpg");
+	background-color: #FFFFFF;
+	color: #1D344D;
+	font-family: "Montserrat";
+	margin: 20px;
+}
+
+p {
+	color: blue;
+	border: 10px solid;
+	border-width: 100x;
+	border-style: solid;
+	margin: 20px;
+}
+
+h1 {
+	color: red;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+}
