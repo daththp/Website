@@ -8,18 +8,56 @@ body {
 
 p {
 	color: blue;
-	border: 10px solid;
-	border-width: 100x;
-	border-style: solid;
-	margin: 20px;
+	margin: 10px;
+	background-color: rgba(255,255,255,.5);
 }
 
 h1 {
 	color: red;
 }
 
-@media only screen and (max-width: 600px) {
-	body {
-		background-color: lightblue;
-	}
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+	color: purple;
+	background-color: white;
+	text-decoration: underline;
+}
+table, th, td {
+	border:1px solid black;
+	border-bottom: 5px solid #3333;
+	border-collapse: collapse;	
+}
+tr:nth-child(even) {
+	background-color: #3333;
+}
+th:hover {
+	color:white;
+	background-color:blue;
+}
+
+ul {
+	list-style-image: url(../img/list.png);
+}
+
+.Warning {
+	color:red;
+	background-color:rgba(111,111,111,.5);
+}
+ul.Warning {
+	color:white;
 }

@@ -10,6 +10,7 @@ một thẻ có thể có thuộc tính (attribute) và giá trị theo cặp ng
 	<head> <!-- Tieu de khai bao thong tin cho trang web -->
 		<title> Thẻ title định nghĩa cho title của web site </title>
 		<link rel="stylesheet" href="src/main/css/helloworld.css">
+		<link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
 	</head>
 	<body> Chua noi dung hien thi cho trang web
@@ -17,7 +18,7 @@ một thẻ có thể có thuộc tính (attribute) và giá trị theo cặp ng
 		<p style="color:red; font-size:36px;"> Thẻ p chỉ đơn giản là ngắt dòng </p>
 		<mark> thẻ mark để mark các char trong thẻ </mark>
 		<h2><i> Thẻ có thể lồng vào nhau</i> Bên ngoài thẻ sẽ không bị ảnh hưởng</h2>
-		<a href="http://google.com" target="_blank"> dùng thẻ a để định nghĩa link href để gán giá trị cho a </a>
+		<a href="http://google.com" target="_parent"> dùng thẻ a để định nghĩa link href để gán giá trị cho a </a>
 		<p><a href="http://google.com"><img src="Hello_World_poster.jpg" alt="thay thế khi src bị lỗi và tối ưu SEO" title="dsc của ảnh, không có tác dụng khi SEO"
 				height="200" align="middle" /> </a> ../ để backscape đường dân tương đối, dùng thẻ img lồng trong thẻ a để định nghĩa link khi nhân vào ảnh</p>
 		<p><img src="/home/mrbottle/eclipse-workspace/Lap trinh cung thay Tu senaa/Hello_World_poster.jpg" /> </p>
@@ -33,6 +34,35 @@ một thẻ có thể có thuộc tính (attribute) và giá trị theo cặp ng
 		<cite> the cite de dinh nghi chu thich ve ban quyen sang tao </cite>
 		<bdo dir="rtl"> the bdo de chay chu </bdo>
 		<blockquote> <pre> dinh nghia mot khoi block bao gom cac quote </pre>
+		<a href="mailto:lolthanpay@gmail.com">Send email</a>
 		</blockquote>
+		<table style="width:80%">
+			<tr>
+				<th>Tieu de</th>
+				<th>Tieu de 2</th>
+			</tr>
+			<tr>
+				<td>Noi dung 1</td>
+				<td>Noi dung 2</td>
+			</tr>
+		</table>
+		<ul>
+			<li> Tôm </li>
+			<li> Cua </li>
+			<li> Cá </li>				
+			<li> Hồ lô </li>
+		</ul>
+		<div class="Warning">
+			<h1> Cảnh bảo bạn đang truy cập vào trang bất hợp pháp</h1>
+			<p> Vui lòng nhấn nút Ctrl+F4 để thỏát khỏi trang</p>
+			<p> Thứ tự ưu tiên </p>
+				<ul class="Warning">
+					<li> Thuộc tinh của thẻ </li>
+					<li> Giá trị của thẻ đã được khai báo riêng trong style </li>
+					<li> Giá trị của thuộc tính classs </li>
+					<li> thuộc tính của css sẽ được kế thừa của class bên trên của nó nếu nó không được định nghĩa </li>
+				</ul>
+		</div>
 	</body>
+		 
 </html>
